@@ -4,24 +4,23 @@ namespace C0743522
 {
     class Program
     {
-   static void Main(string[] args)
-        {
-            int num1;
-            int num2;
-            int temp;
-            Console.Write("Enter the First Number");
-            num1 = int.Parse(Console.ReadLine());
-
-            Console.Write("Enter the Second Number : ");
-            num2 = int.Parse(Console.ReadLine());
-
-            temp = num1;
-            num1 = num2;
-            num2 = temp;
-            
-            Console.Write("After Swapping ,the First Number : "+num1);
-            Console.Write("After Swapping, the Second Number : "+num2);
-            Console.Read();
-        }
-    }
+  
+             public static void Main()
+  {
+    int num1, num2, num3;
+     
+    Console.Write("please enter the first number");
+    num1 = Convert.ToInt32(Console.ReadLine());
+     
+    Console.Write("please enter the second number");
+    num2 = Convert.ToInt32(Console.ReadLine());
+     
+    Console.Write("please enter the third number");
+    num3 = Convert.ToInt32(Console.ReadLine());
+     
+    int resultOfMultiplication = num1 * num2 * num3;
+    Console.WriteLine("Output: {0} x {1} x {2} = {3}", 
+                        num1, num2, num3, resultOfMultiplication);
+  }
 }
+    }

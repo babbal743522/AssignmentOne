@@ -1,0 +1,11 @@
+U:\Users\743522\csharpA1\babbal\babbal\obj\Debug\netcoreapp3.1\babbal.csprojAssemblyReference.cache
+U:\Users\743522\csharpA1\babbal\babbal\obj\Debug\netcoreapp3.1\babbal.AssemblyInfoInputs.cache
+U:\Users\743522\csharpA1\babbal\babbal\obj\Debug\netcoreapp3.1\babbal.AssemblyInfo.cs
+U:\Users\743522\csharpA1\babbal\babbal\bin\Debug\netcoreapp3.1\babbal.exe
+U:\Users\743522\csharpA1\babbal\babbal\bin\Debug\netcoreapp3.1\babbal.deps.json
+U:\Users\743522\csharpA1\babbal\babbal\bin\Debug\netcoreapp3.1\babbal.runtimeconfig.json
+U:\Users\743522\csharpA1\babbal\babbal\bin\Debug\netcoreapp3.1\babbal.runtimeconfig.dev.json
+U:\Users\743522\csharpA1\babbal\babbal\bin\Debug\netcoreapp3.1\babbal.dll
+U:\Users\743522\csharpA1\babbal\babbal\bin\Debug\netcoreapp3.1\babbal.pdb
+U:\Users\743522\csharpA1\babbal\babbal\obj\Debug\netcoreapp3.1\babbal.dll
+U:\Users\743522\csharpA1\babbal\babbal\obj\Debug\netcoreapp3.1\babbal.pdb
