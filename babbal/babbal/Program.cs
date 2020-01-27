@@ -8,18 +8,19 @@ namespace C0743522
              public static void Main()
   {  
               
-
-                 // for loop
-            int A, sum = 0;
-            Console.Write("The sum of first 10 natural number are :\n");
-            for (A = 1; A <= 10; A++)
+ int i = 1, add = 0;
+            while (i <= 10)
             {
-                sum = sum + A;
-                Console.Write("{0} ", A);
+                add += i;
+                i++;
             }
-            Console.Write("\nThe Sum is : {0}\n", sum);
-            }
+            Console.WriteLine("Sum of 10 natural numbers are = {0}", add);
+
+
+
+
+            Console.ReadLine();
 }
+    }
    
     }
-}
