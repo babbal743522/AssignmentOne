@@ -34,6 +34,27 @@ namespace C0743522
   Console.WriteLine("             : {0} x {1} = {2}", x, 9, result);
   result = x * 10;
   Console.WriteLine("             : {0} x {1} = {2}", x, 10, result);
+
+
+
+// A-F
+double numbone, numbtwo, numbthree, numbfour;
+
+            Console.Write("Enter the First number: ");
+            numbone = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter the Second number: ");
+            numbtwo = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter the third number: ");
+            numbthree = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter the fourth number: ");
+            numbfour = Convert.ToDouble(Console.ReadLine());
+
+            double result = (numbone + numbtwo + numbthree + numbfour) / 4;
+            Console.WriteLine("The average of {0}, {1}, {2}, {3} is: {4} ",
+            numbone, numbtwo, numbthree, numbfour, result);
  }
 }
     }
