@@ -7,22 +7,17 @@ namespace C0743522
   
              public static void Main()
   {  
-              Console.WriteLine("enter first number");
-            int a = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("enter second number");
-            int b = Int32.Parse(Console.ReadLine());
-            if (a == b)
+              
+
+                 // for loop
+            int A, sum = 0;
+            Console.Write("The sum of first 10 natural number are :\n");
+            for (A = 1; A <= 10; A++)
             {
-
-
-                Console.WriteLine("values are same so they are accepted");
+                sum = sum + A;
+                Console.Write("{0} ", A);
             }
-
-            else
-            {
-
-
-                Console.WriteLine("values are not same");
+            Console.Write("\nThe Sum is : {0}\n", sum);
             }
 }
    
