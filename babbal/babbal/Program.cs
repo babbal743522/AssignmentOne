@@ -6,17 +6,25 @@ namespace C0743522
     {
   
              public static void Main()
-  {  Console.WriteLine("Enter any number randomly");
-            int zen = Int32.Parse(Console.ReadLine());
-            if (zen >= 20 && zen <= 100)
+  {  
+              Console.WriteLine("enter first number");
+            int a = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("enter second number");
+            int b = Int32.Parse(Console.ReadLine());
+            if (a == b)
             {
-                Console.WriteLine("number is greater than 19 and less than 101");
+
+
+                Console.WriteLine("values are same so they are accepted");
             }
+
             else
             {
-                Console.WriteLine("false");
+
+
+                Console.WriteLine("values are not same");
             }
-        
-            }}
 }
+   
     }
+}
